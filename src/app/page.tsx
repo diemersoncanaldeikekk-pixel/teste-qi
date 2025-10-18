@@ -21,14 +21,14 @@ export default function HomePage() {
             30 perguntas cuidadosamente elaboradas para avaliar suas habilidades cognitivas.
           </p>
           
-          {/* Botão principal mais chamativo */}
+          {/* Botão principal mais chamativo e gordinho */}
           <Link href="/teste">
             <Button 
-              className="bg-gradient-to-r from-red-500 to-pink-600 hover:from-red-600 hover:to-pink-700 text-white font-bold py-6 px-12 text-2xl rounded-3xl shadow-2xl transform hover:scale-110 transition-all duration-300 animate-pulse hover:animate-none border-4 border-white"
+              className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-6 px-12 text-2xl rounded-3xl shadow-2xl transform hover:scale-105 transition-all duration-300 animate-pulse hover:animate-none border-4 border-white min-h-[80px]"
               size="lg"
             >
               <Play className="w-8 h-8 mr-4" />
-              🧠 INICIAR TESTE DE QI 🧠
+              INICIAR TESTE DE QI
             </Button>
           </Link>
         </div>
